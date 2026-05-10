@@ -5,6 +5,12 @@ My Class: CISC 3610 EM6[16637], Spring 2026 \
 My email: xiaochen.wuwu50@bcmail.cuny.edu \
 <br>
 
-Projects
+Projects / HW
 -----------------------------------------------
 Cartoon Project
+Bootstrap
+Words Project
+PWA Project
+Video Lab
+Video Animation
+Resume Lab
