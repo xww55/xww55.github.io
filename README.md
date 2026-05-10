@@ -7,10 +7,10 @@ My email: xiaochen.wuwu50@bcmail.cuny.edu \
 
 Projects / HW
 -----------------------------------------------
-Cartoon Project
-Bootstrap
-Words Project
-PWA Project
-Video Lab
-Video Animation
-Resume Lab
+Cartoon Project \
+Bootstrap \
+Words Project \
+PWA Project \
+Video Lab \
+Video Animation \
+Resume Lab \
