@@ -11,6 +11,6 @@ Projects / HW
 [Bootstrap](bootstrap_hw.html) \
 [Words Project](words_project.html) \
 PWA Project \
-Video Lab \
+[Video Lab](video_lab_hw.html) \
 [Video Animation](animation.html) \
 Resume Lab
