@@ -12,5 +12,5 @@ Projects / HW
 [Words Project](words_project.html) \
 PWA Project \
 Video Lab \
-Video Animation \
+[Video Animation](animation.html) \
 Resume Lab
