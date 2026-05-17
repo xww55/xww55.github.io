@@ -7,7 +7,7 @@ My email: xiaochen.wuwu50@bcmail.cuny.edu \
 
 Projects / HW
 -----------------------------------------------
-Cartoon Project \
+[Cartoon Project](cartoon.html) \
 Bootstrap \
 Words Project \
 PWA Project \
