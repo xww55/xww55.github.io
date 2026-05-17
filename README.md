@@ -9,7 +9,7 @@ Projects / HW
 -----------------------------------------------
 [Cartoon Project](cartoon.html) \
 [Bootstrap](bootstrap_hw.html) \
-Words Project \
+[Words Project](words_project.html) \
 PWA Project \
 Video Lab \
 Video Animation \
