@@ -58,16 +58,17 @@ ctx.fill();
 let bunch = 100;
 ctx.strokeStyle = "#396912";
 ctx.lineWidth = 2;
- 
+
+// creates 5 bunches of grass
 for (var i = 0; i < 5; i++) {
     ctx.save();
     
     ctx.translate(bunch, 440);
  
-    ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(-7, -25); ctx.stroke(); // left blade
+    ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(-7, -25); ctx.stroke(); // left grass blade
     ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(0, -33);  ctx.stroke(); // center blade
     ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(7, -25);  ctx.stroke(); // right blade
  
-    bunch += 170;
+    bunch += 170;   // each bunch is located after distance +170
     ctx.restore();
 }
