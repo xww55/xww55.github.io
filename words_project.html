@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Words Project</title>
+    <style>
+        body {
+            background-color: #eb9bc8;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <h1>Multimedia Dictionary</h1>
+    <p>Select Word:</p>
+
+    <select id="wordSelect" onchange="syncWord()">
+        <option value="">--- Choose a Word ---</option>
+        <option value="Cat" data-sentence="Cats groom themselves daily to keep clean.">Cat</option>
+        <option value="Dog" data-sentence="Different dog breeds are require different needs.">Dog</option>
+        <option value="Boardwalk" data-sentence="The boardwalk in Coney Island measures 2.7 miles.">Boardwalk</option>
+        <option value="Theatre" data-sentence="Kara loves going to the movie theatres.">Theatre</option>
+        <option value="Subway" data-sentence="Subway provides a variety of delicious sandwiches.">Subway</option>
+    </select>
+
+    <button onclick="speakWord()">Speak Word</button>
+    
+    <br>
+    <p>Sentence: </p>
+    <textarea id="wordDisplay" readonly></textarea>
+    <button onclick="speakSentence()">Speak Sentence</button>
+
+    <script>
+        function speak(textToSay) {
+            const message = new SpeechSynthesisUtterance(textToSay);
+            message.pitch = 2.0;
+            message.rate = 1.2;
+            window.speechSynthesis.speak(message);
+        }   
+      
+        function syncWord() {
+            const menu = document.getElementById("wordSelect");
+            const display = document.getElementById("wordDisplay");
+            if (menu.selectedIndex > 0) {
+                const selectedOption = menu.options[menu.selectedIndex];
+                display.value = selectedOption.dataset.sentence;
+            } else {
+                display.value = "";
+            }
+        }
+      
+        function speakWord() {
+            const menu = document.getElementById("wordSelect");
+            if (menu.selectedIndex>0) {
+                const w = menu.options[menu.selectedIndex].text;
+                speak(w);
+            }
+        }
+      
+      function speakSentence() {
+        const sentence = document.getElementById("wordDisplay").value;
+        if (sentence != "") {
+          speak(sentence);
+        }
+      }
+      
+    </script>
+
+</center>
+</body>
+
+</html>
