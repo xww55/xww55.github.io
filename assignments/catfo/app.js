@@ -37,7 +37,6 @@ fetch('data.json')
                             <h3>${breed.name}</h3>
                             <img src="${breed.image}" alt="${breed.name}">
                             <p>${breed.description}</p>
-                            ${breed.audio ? `<audio controls src="${breed.audio}"></audio>` : ""}
                         `;
                         content.appendChild(div);
                     });
