@@ -13,4 +13,4 @@ Projects / HW
 PWA Project \
 [Video Lab](video_lab_hw.html) \
 [Video Animation](animation.html) \
-Resume Lab
+[Resume Lab](resume_lab.html)
