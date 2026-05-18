@@ -1,7 +1,7 @@
 {
     "name": "Catfo",
     "short_name": "Catfo",
-    "start_url": "index.html",
+    "start_url": "assignments/catfo/index.html",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#CC313D",
