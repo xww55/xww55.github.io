@@ -5,11 +5,11 @@
 const CACHE_NAME = "catfo-cache-v1";
 
 const urlsToCache = [
-    "index.html",
-    "app.html",
-    "style.css",
-    "app.js",
-    "data.json",
+    "assignments/catfo/index.html",
+    "assignments/catfo/app.html",
+    "assignments/catfo/styles.css",
+    "assignments/catfo/app.js",
+    "assignments/catfo/data.json",
     "images/tuxedo.jpg",
     "images/tortoiseshell.jpg",
     "images/calico.jpg",
