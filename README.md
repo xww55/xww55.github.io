@@ -10,7 +10,7 @@ Projects / HW
 [Cartoon Project](cartoon.html) \
 [Bootstrap](bootstrap_hw.html) \
 [Words Project](words_project.html) \
-PWA Project \
+[PWA Project](./assignments/index.html) \
 [Video Lab](video_lab_hw.html) \
 [Video Animation](animation.html) \
 [Resume Lab](resume_lab.html)
