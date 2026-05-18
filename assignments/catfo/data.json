@@ -1,0 +1,51 @@
+{
+    "categories": [
+    {
+        "title": "Cat Breeds & Patterns",
+        "breeds": [
+        {
+            "name": "Tuxedo",
+            "image": "images/tuxedo.jpg",
+            "audio": "audio/tuxedo.mp3",
+            "description": "Black and white coat, giving the appearance of a tuxedo. They're often playful and friendly."
+        },
+        {
+            "name": "Tortoiseshell",
+            "image": "images/tortoiseshell.jpg",
+            "description": "Black, brown, and orange patched coat. Almost all female are have unique personalities/temperaments."
+        },
+        {
+            "name": "Calico",
+            "image": "images/calico.jpg",
+            "description": "Tri-color coat pattern of black, white, and orange. Like tortoiseshell cats, almost all are female. Known for vibrant personalities."
+        },
+        {
+            "name": "Sphynx",
+            "image": "images/sphynx.jpg",
+            "description": "Known for hairless and visible skin, but have a peach fuzz layer. Known for being affectionate and playful. Without a coat, they need more attention to body care by owners."
+        },
+        {
+            "name": "Maine Coon",
+            "image": "images/mainecoon.jpg",
+            "description": "Large breed with usually long, heavy coats. They're known for being very affectionate and gentle, close personalities to dogs."
+        }
+      ]
+    },
+    {
+        "title": "Cat Behavior",
+        "items": [
+            "Scent is important for territorial marking for. Cats head bunt or rub their cheeks on surfaces; their scent glands are located there.",
+            "A purr is often a sign of content or comfort, but sometimes can be of stress as well to self-soothe",
+            "Tails show a lot. An upright tail with a small curve shows confidence. When britled out, it is excitement or fear."
+        ]
+    },
+    {
+        "title": "Fun Facts",
+        "items": [
+            "Cats walk similarly to camels and giraffes: both right feet firsst, then left.",
+            "They can rotate ears 180 degrees and have 32 muscles in each, allowing for super-hearing",
+            "Cats sleep 12–16 hours a day. For kittens, they sleep up to 20 hours a day"
+        ]
+    }
+    ]
+}
