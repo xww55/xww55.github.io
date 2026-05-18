@@ -12,8 +12,8 @@ Projects / HW
 [Words Project](words_project.html) \
 [PWA Promo Page](https://xww55.github.io/assignments/catfo/promo_page.html) \
 [PWA Project](https://xww55.github.io/assignments/catfo/index.html) \
-PWA Documentation \
-PWA Programmer Documentation \
+[PWA Documentation](https://xww55.github.io/assignments/catfo/documentation.html) \
+[PWA Programmer Documentation](https://xww55.github.io/assignments/catfo/programmer_doc.html) \
 [Video Lab](video_lab_hw.html) \
 [Video Animation](animation.html) \
 [Resume Lab](resume_lab.html)
