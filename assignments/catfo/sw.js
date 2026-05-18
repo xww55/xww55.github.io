@@ -14,7 +14,7 @@ const urlsToCache = [
     "images/tortoiseshell.jpg",
     "images/calico.jpg",
     "images/sphynx.jpg",
-    "images/mainecoon.jpg"
+    "images/maine_coon.jpg"
 ];
 
 self.addEventListener("install", event => {
